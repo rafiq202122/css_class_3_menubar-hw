@@ -1,0 +1,49 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{ 
+    list-style: none;
+}
+.navbar{
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+   
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+    
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar li a{
+    color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 15px 25px;
+    transition: 300ms;
+}
+.navbar li a:hover{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+
+
+}
+
+
+
+
+
+
+
